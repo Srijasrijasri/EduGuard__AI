@@ -1,0 +1,18 @@
+# Python virtual environments & cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data & database generated artifacts
+database/database.db
+models/*.pkl
+data/student_data.csv
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
